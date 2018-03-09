@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Gzg-Rf-IlX">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VoosOnline" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wd7-fR-bHz">
+                                <rect key="frame" x="33" y="200" width="258" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="BUSCAR POR NÚMERO"/>
+                                <connections>
+                                    <segue destination="6Uw-MQ-34C" kind="show" id="YE3-B0-Ygg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYn-De-FNg">
+                                <rect key="frame" x="33" y="269" width="258" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <state key="normal" title="BUSCAR POR CIA AÉRIA"/>
+                                <connections>
+                                    <segue destination="dkB-KE-n0q" kind="show" id="ryY-qO-ahW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUi-Kb-rx2">
+                                <rect key="frame" x="33" y="340" width="258" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.088750809589999993" green="0.059951077829999998" blue="0.026137359320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="BUSCAR POR AEROPORTO"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="of5-mT-Im6">
+                                <rect key="frame" x="33" y="129" width="265.5" height="20.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="PESQUISE E ENCONTRE SEU VOO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJj-fR-pNb">
+                                        <rect key="frame" x="0.0" y="0.0" width="265.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79553210866881152" blue="0.1499615004754149" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KQg-cp-X8L"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1412" y="180"/>
+        </scene>
+        <!--Voo Controller-->
+        <scene sceneID="DyT-d7-AvK">
+            <objects>
+                <viewController id="4ER-IX-kCs" customClass="VooController" customModule="VoosOnline" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DL8-VA-xkq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6W7-ze-DPR">
+                                <rect key="frame" x="100" y="188" width="121" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SELECIONAR O NÚMERO DO VOO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWC-KE-1wo">
+                                <rect key="frame" x="38" y="135" width="266" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdj-LU-aFQ">
+                                <rect key="frame" x="100" y="246" width="121" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="CONFIRMAR &gt;"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79553210870000002" blue="0.14996150050000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="bqO-Jo-WuU"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="onM-FE-fWb"/>
+                    <connections>
+                        <outlet property="vrNumeroVoo" destination="6W7-ze-DPR" id="d5g-v9-US9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9BN-Ve-x0y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2273" y="180"/>
+        </scene>
+        <!--Voo Cia View Controller-->
+        <scene sceneID="rDM-PB-Kov">
+            <objects>
+                <viewController id="dkB-KE-n0q" customClass="VooCiaViewController" customModule="VoosOnline" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i7r-us-Uls">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N54-Os-yty">
+                                <rect key="frame" x="137.5" y="235" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Zkv-qa-9R5"/>
+                                    <constraint firstAttribute="width" constant="100" id="bcQ-52-3fI"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DIGITE O NOME DA CIA AREA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AXI-gA-5p0">
+                                <rect key="frame" x="73" y="164" width="229" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRv-pv-V73">
+                                <rect key="frame" x="137" y="315" width="101" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="CONFIRMAR &gt;"/>
+                                <connections>
+                                    <action selector="buscarVooPelaCia:" destination="dkB-KE-n0q" eventType="touchUpInside" id="svV-z5-8aw"/>
+                                    <segue destination="NeW-xl-VJg" kind="show" id="BRH-Se-dHB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.82218521359999996" blue="0.34171748680000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AXI-gA-5p0" firstAttribute="top" secondItem="Gsy-IF-Wu1" secondAttribute="top" constant="100" id="1uo-fe-aMo"/>
+                            <constraint firstItem="sRv-pv-V73" firstAttribute="centerX" secondItem="Gsy-IF-Wu1" secondAttribute="centerX" id="8fs-fB-mhk"/>
+                            <constraint firstItem="N54-Os-yty" firstAttribute="top" secondItem="AXI-gA-5p0" secondAttribute="bottom" constant="50" id="FYh-2b-DNd"/>
+                            <constraint firstItem="N54-Os-yty" firstAttribute="centerX" secondItem="Gsy-IF-Wu1" secondAttribute="centerX" id="TT0-6O-0Io"/>
+                            <constraint firstItem="AXI-gA-5p0" firstAttribute="centerX" secondItem="Gsy-IF-Wu1" secondAttribute="centerX" id="o8o-Fm-hz6"/>
+                            <constraint firstItem="sRv-pv-V73" firstAttribute="top" secondItem="N54-Os-yty" secondAttribute="bottom" constant="50" id="uQL-Er-p38"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Gsy-IF-Wu1"/>
+                    </view>
+                    <connections>
+                        <outlet property="vrGetCia" destination="N54-Os-yty" id="LAy-8N-Ohk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KuS-eC-RJd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1310" y="1047"/>
+        </scene>
+        <!--Buscar Voo Controller-->
+        <scene sceneID="SpJ-cb-mDu">
+            <objects>
+                <viewController storyboardIdentifier="searchVoo" id="NeW-xl-VJg" customClass="BuscarVooController" customModule="VoosOnline" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0X0-52-5p0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aBK-dd-NiR">
+                                <rect key="frame" x="19" y="78" width="275" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BUSCAR POR NÚMERO  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xd-D5-eXw">
+                                        <rect key="frame" x="8" y="8" width="276" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tff-p6-FAE">
+                                <rect key="frame" x="19" y="133" width="285" height="514"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celulaCustomizada" id="nDq-NA-VoY" customClass="CelulaTableViewCell" customModule="VoosOnline" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="285" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nDq-NA-VoY" id="nUG-k1-4Z2">
+                                            <rect key="frame" x="0.0" y="0.0" width="285" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wBt-5g-Pgj">
+                                                    <rect key="frame" x="30" y="5" width="224" height="33"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="vrLabelCell" destination="wBt-5g-Pgj" id="mbx-lU-aY3"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="NeW-xl-VJg" id="h2I-Yd-IDf"/>
+                                    <outlet property="delegate" destination="NeW-xl-VJg" id="hF7-yX-ncJ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79553210870000002" blue="0.14996150050000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="DIN-Pu-4pz"/>
+                    </view>
+                    <connections>
+                        <outlet property="LabelVooEncontrado" destination="5xd-D5-eXw" id="1rU-5f-nyx"/>
+                        <outlet property="vrNumeroVoo" destination="5xd-D5-eXw" id="dfE-DW-Z2g"/>
+                        <outlet property="vrTableView" destination="tff-p6-FAE" id="ECh-G2-olD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vx9-Py-xX8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3172" y="179.46026986506749"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bbZ-30-lOK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gzg-Rf-IlX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9v5-2u-wWz">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="GS9-lK-gmR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ukb-Jr-gXk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="621" y="180"/>
+        </scene>
+        <!--Voo Controller-->
+        <scene sceneID="3Ht-I7-cMt">
+            <objects>
+                <viewController id="6Uw-MQ-34C" customClass="VooController" customModule="VoosOnline" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vtA-rI-cb3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vvK-DW-cEg">
+                                <rect key="frame" x="137.5" y="235" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4SM-21-xfY"/>
+                                    <constraint firstAttribute="width" constant="100" id="csV-P2-dlw"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SELECIONAR O NÚMERO DO VOO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlf-pK-Ubr">
+                                <rect key="frame" x="54.5" y="164" width="266" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQo-kC-bmG">
+                                <rect key="frame" x="137" y="271" width="101" height="46"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="CONFIRMAR &gt;"/>
+                                <connections>
+                                    <segue destination="NeW-xl-VJg" kind="show" id="LRm-5t-3Tw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79553210870000002" blue="0.14996150050000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QQo-kC-bmG" firstAttribute="top" secondItem="vvK-DW-cEg" secondAttribute="bottom" constant="50" id="9hU-mJ-ntT"/>
+                            <constraint firstItem="jlf-pK-Ubr" firstAttribute="centerX" secondItem="Q8t-ix-aef" secondAttribute="centerX" id="O8r-wN-AIT"/>
+                            <constraint firstItem="QQo-kC-bmG" firstAttribute="centerX" secondItem="Q8t-ix-aef" secondAttribute="centerX" id="ZOB-1X-eGA"/>
+                            <constraint firstItem="vvK-DW-cEg" firstAttribute="top" secondItem="jlf-pK-Ubr" secondAttribute="bottom" constant="50" id="Zkg-3H-NrH"/>
+                            <constraint firstItem="vvK-DW-cEg" firstAttribute="centerX" secondItem="Q8t-ix-aef" secondAttribute="centerX" id="mgd-E8-PCA"/>
+                            <constraint firstItem="jlf-pK-Ubr" firstAttribute="top" secondItem="Q8t-ix-aef" secondAttribute="top" constant="100" id="qdM-n4-eZG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Q8t-ix-aef"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wvs-46-vTj"/>
+                    <connections>
+                        <outlet property="vrNumeroVoo" destination="vvK-DW-cEg" id="F0c-RO-Paw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2G8-Sz-bPP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2272.8000000000002" y="179.46026986506749"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="BRH-Se-dHB"/>
+    </inferredMetricsTieBreakers>
+</document>

@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57300E14204B1482005BEA7A /* VooController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57300E13204B1482005BEA7A /* VooController.swift */; };
+		57300E16204B1794005BEA7A /* BuscarVooController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57300E15204B1794005BEA7A /* BuscarVooController.swift */; };
+		5759B4BE204B01CD0079626E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759B4BD204B01CD0079626E /* AppDelegate.swift */; };
+		5759B4C0204B01CD0079626E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759B4BF204B01CD0079626E /* ViewController.swift */; };
+		5759B4C3204B01CD0079626E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5759B4C1204B01CD0079626E /* Main.storyboard */; };
+		5759B4C5204B01CD0079626E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5759B4C4204B01CD0079626E /* Assets.xcassets */; };
+		5759B4C8204B01CD0079626E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5759B4C6204B01CD0079626E /* LaunchScreen.storyboard */; };
+		F160579F204B24EB00C9010C /* CiaAerea.swift in Sources */ = {isa = PBXBuildFile; fileRef = F160579A204B24EA00C9010C /* CiaAerea.swift */; };
+		F16057A0204B24EB00C9010C /* CadastroGenerico.swift in Sources */ = {isa = PBXBuildFile; fileRef = F160579B204B24EA00C9010C /* CadastroGenerico.swift */; };
+		F16057A2204B24EB00C9010C /* Voo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F160579D204B24EB00C9010C /* Voo.swift */; };
+		F16057A3204B24EB00C9010C /* Infraero.swift in Sources */ = {isa = PBXBuildFile; fileRef = F160579E204B24EB00C9010C /* Infraero.swift */; };
+		F16057A5204B250800C9010C /* Aeroporto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16057A4204B250800C9010C /* Aeroporto.swift */; };
+		F16057A9204B2FD700C9010C /* VooCiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16057A8204B2FD700C9010C /* VooCiaViewController.swift */; };
+		F16057AB204B339C00C9010C /* CelulaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16057AA204B339C00C9010C /* CelulaTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57300E13204B1482005BEA7A /* VooController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VooController.swift; sourceTree = "<group>"; };
+		57300E15204B1794005BEA7A /* BuscarVooController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarVooController.swift; sourceTree = "<group>"; };
+		5759B4BA204B01CD0079626E /* VoosOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoosOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5759B4BD204B01CD0079626E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5759B4BF204B01CD0079626E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5759B4C2204B01CD0079626E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5759B4C4204B01CD0079626E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5759B4C7204B01CD0079626E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5759B4C9204B01CD0079626E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F160579A204B24EA00C9010C /* CiaAerea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiaAerea.swift; sourceTree = "<group>"; };
+		F160579B204B24EA00C9010C /* CadastroGenerico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroGenerico.swift; sourceTree = "<group>"; };
+		F160579D204B24EB00C9010C /* Voo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voo.swift; sourceTree = "<group>"; };
+		F160579E204B24EB00C9010C /* Infraero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infraero.swift; sourceTree = "<group>"; };
+		F16057A4204B250800C9010C /* Aeroporto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aeroporto.swift; sourceTree = "<group>"; };
+		F16057A8204B2FD700C9010C /* VooCiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VooCiaViewController.swift; sourceTree = "<group>"; };
+		F16057AA204B339C00C9010C /* CelulaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CelulaTableViewCell.swift; path = VoosOnline/View/CelulaTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5759B4B7204B01CD0079626E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5759B4B1204B01CC0079626E = {
+			isa = PBXGroup;
+			children = (
+				5759B4BC204B01CD0079626E /* VoosOnline */,
+				5759B4BB204B01CD0079626E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5759B4BB204B01CD0079626E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5759B4BA204B01CD0079626E /* VoosOnline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5759B4BC204B01CD0079626E /* VoosOnline */ = {
+			isa = PBXGroup;
+			children = (
+				F16057A7204B253E00C9010C /* View */,
+				F16057A6204B252C00C9010C /* Controller */,
+				F1605797204B24B400C9010C /* Model */,
+				5759B4C4204B01CD0079626E /* Assets.xcassets */,
+				5759B4C9204B01CD0079626E /* Info.plist */,
+			);
+			path = VoosOnline;
+			sourceTree = "<group>";
+		};
+		F1605797204B24B400C9010C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F160579B204B24EA00C9010C /* CadastroGenerico.swift */,
+				F160579A204B24EA00C9010C /* CiaAerea.swift */,
+				F160579E204B24EB00C9010C /* Infraero.swift */,
+				F160579D204B24EB00C9010C /* Voo.swift */,
+				F16057A4204B250800C9010C /* Aeroporto.swift */,
+			);
+			name = Model;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		F16057A6204B252C00C9010C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5759B4BD204B01CD0079626E /* AppDelegate.swift */,
+				5759B4BF204B01CD0079626E /* ViewController.swift */,
+				57300E15204B1794005BEA7A /* BuscarVooController.swift */,
+				57300E13204B1482005BEA7A /* VooController.swift */,
+				F16057A8204B2FD700C9010C /* VooCiaViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F16057A7204B253E00C9010C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5759B4C1204B01CD0079626E /* Main.storyboard */,
+				F16057AA204B339C00C9010C /* CelulaTableViewCell.swift */,
+				5759B4C6204B01CD0079626E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5759B4B9204B01CD0079626E /* VoosOnline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5759B4CC204B01CD0079626E /* Build configuration list for PBXNativeTarget "VoosOnline" */;
+			buildPhases = (
+				5759B4B6204B01CD0079626E /* Sources */,
+				5759B4B7204B01CD0079626E /* Frameworks */,
+				5759B4B8204B01CD0079626E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoosOnline;
+			productName = VoosOnline;
+			productReference = 5759B4BA204B01CD0079626E /* VoosOnline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5759B4B2204B01CC0079626E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Wellington Antonio";
+				TargetAttributes = {
+					5759B4B9204B01CD0079626E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5759B4B5204B01CC0079626E /* Build configuration list for PBXProject "VoosOnline" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5759B4B1204B01CC0079626E;
+			productRefGroup = 5759B4BB204B01CD0079626E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5759B4B9204B01CD0079626E /* VoosOnline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5759B4B8204B01CD0079626E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5759B4C8204B01CD0079626E /* LaunchScreen.storyboard in Resources */,
+				5759B4C5204B01CD0079626E /* Assets.xcassets in Resources */,
+				5759B4C3204B01CD0079626E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5759B4B6204B01CD0079626E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16057A2204B24EB00C9010C /* Voo.swift in Sources */,
+				F16057A0204B24EB00C9010C /* CadastroGenerico.swift in Sources */,
+				F160579F204B24EB00C9010C /* CiaAerea.swift in Sources */,
+				57300E16204B1794005BEA7A /* BuscarVooController.swift in Sources */,
+				F16057AB204B339C00C9010C /* CelulaTableViewCell.swift in Sources */,
+				F16057A3204B24EB00C9010C /* Infraero.swift in Sources */,
+				5759B4C0204B01CD0079626E /* ViewController.swift in Sources */,
+				F16057A5204B250800C9010C /* Aeroporto.swift in Sources */,
+				F16057A9204B2FD700C9010C /* VooCiaViewController.swift in Sources */,
+				5759B4BE204B01CD0079626E /* AppDelegate.swift in Sources */,
+				57300E14204B1482005BEA7A /* VooController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5759B4C1204B01CD0079626E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5759B4C2204B01CD0079626E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5759B4C6204B01CD0079626E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5759B4C7204B01CD0079626E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5759B4CA204B01CD0079626E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5759B4CB204B01CD0079626E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5759B4CD204B01CD0079626E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW774T4DB3;
+				INFOPLIST_FILE = VoosOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ufg.go.br.VoosOnlineGroup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5759B4CE204B01CD0079626E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW774T4DB3;
+				INFOPLIST_FILE = VoosOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ufg.go.br.VoosOnlineGroup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5759B4B5204B01CC0079626E /* Build configuration list for PBXProject "VoosOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5759B4CA204B01CD0079626E /* Debug */,
+				5759B4CB204B01CD0079626E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5759B4CC204B01CD0079626E /* Build configuration list for PBXNativeTarget "VoosOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5759B4CD204B01CD0079626E /* Debug */,
+				5759B4CE204B01CD0079626E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5759B4B2204B01CC0079626E /* Project object */;
+}
