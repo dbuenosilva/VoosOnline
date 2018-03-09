@@ -44,6 +44,9 @@
                                 <color key="backgroundColor" red="0.088750809589999993" green="0.059951077829999998" blue="0.026137359320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="BUSCAR POR AEROPORTO"/>
+                                <connections>
+                                    <segue destination="tQX-Nb-iRg" kind="show" id="IgO-mS-kLM"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="of5-mT-Im6">
                                 <rect key="frame" x="33" y="129" width="265.5" height="20.5"/>
@@ -66,48 +69,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1412" y="180"/>
-        </scene>
-        <!--Voo Controller-->
-        <scene sceneID="DyT-d7-AvK">
-            <objects>
-                <viewController id="4ER-IX-kCs" customClass="VooController" customModule="VoosOnline" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DL8-VA-xkq">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6W7-ze-DPR">
-                                <rect key="frame" x="100" y="188" width="121" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SELECIONAR O NÚMERO DO VOO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWC-KE-1wo">
-                                <rect key="frame" x="38" y="135" width="266" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdj-LU-aFQ">
-                                <rect key="frame" x="100" y="246" width="121" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="CONFIRMAR &gt;"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.79553210870000002" blue="0.14996150050000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="bqO-Jo-WuU"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="onM-FE-fWb"/>
-                    <connections>
-                        <outlet property="vrNumeroVoo" destination="6W7-ze-DPR" id="d5g-v9-US9"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9BN-Ve-x0y" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2273" y="180"/>
         </scene>
         <!--Voo Cia View Controller-->
         <scene sceneID="rDM-PB-Kov">
@@ -161,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KuS-eC-RJd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1310" y="1047"/>
+            <point key="canvasLocation" x="103" y="980"/>
         </scene>
         <!--Buscar Voo Controller-->
         <scene sceneID="SpJ-cb-mDu">
@@ -228,7 +189,52 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vx9-Py-xX8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3172" y="179.46026986506749"/>
+            <point key="canvasLocation" x="3770" y="535"/>
+        </scene>
+        <!--Voo Aeroporto View Controller-->
+        <scene sceneID="BrY-FP-KK2">
+            <objects>
+                <viewController id="tQX-Nb-iRg" customClass="VooAeroportoViewController" customModule="VoosOnline" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4hp-M4-hxl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DIGITE A SIGLA DO AEROPORTO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVI-NL-3ah">
+                                <rect key="frame" x="56" y="168" width="262" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPP-Gb-5f0">
+                                <rect key="frame" x="137" y="318" width="101" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="CONFIRMAR &gt;"/>
+                                <connections>
+                                    <action selector="buscarVooPelaCia:" destination="dkB-KE-n0q" eventType="touchUpInside" id="8wp-ZN-4vS"/>
+                                    <segue destination="NeW-xl-VJg" kind="show" id="85W-dX-XLP"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="svB-KZ-CJI">
+                                <rect key="frame" x="137" y="224" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.82218521359999996" blue="0.34171748680000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="42F-Yp-pIS"/>
+                    </view>
+                    <connections>
+                        <outlet property="vrGetVoo" destination="svB-KZ-CJI" id="ihF-Ef-aND"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pip-Ux-5zu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2073" y="979"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bbZ-30-lOK">
@@ -304,6 +310,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="BRH-Se-dHB"/>
+        <segue reference="85W-dX-XLP"/>
     </inferredMetricsTieBreakers>
 </document>

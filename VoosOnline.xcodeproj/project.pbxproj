@@ -14,6 +14,7 @@
 		5759B4C3204B01CD0079626E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5759B4C1204B01CD0079626E /* Main.storyboard */; };
 		5759B4C5204B01CD0079626E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5759B4C4204B01CD0079626E /* Assets.xcassets */; };
 		5759B4C8204B01CD0079626E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5759B4C6204B01CD0079626E /* LaunchScreen.storyboard */; };
+		F123EB592052154600A1951B /* VooAeroportoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123EB582052154600A1951B /* VooAeroportoViewController.swift */; };
 		F160579F204B24EB00C9010C /* CiaAerea.swift in Sources */ = {isa = PBXBuildFile; fileRef = F160579A204B24EA00C9010C /* CiaAerea.swift */; };
 		F16057A0204B24EB00C9010C /* CadastroGenerico.swift in Sources */ = {isa = PBXBuildFile; fileRef = F160579B204B24EA00C9010C /* CadastroGenerico.swift */; };
 		F16057A2204B24EB00C9010C /* Voo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F160579D204B24EB00C9010C /* Voo.swift */; };
@@ -33,6 +34,7 @@
 		5759B4C4204B01CD0079626E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5759B4C7204B01CD0079626E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5759B4C9204B01CD0079626E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F123EB582052154600A1951B /* VooAeroportoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VooAeroportoViewController.swift; sourceTree = "<group>"; };
 		F160579A204B24EA00C9010C /* CiaAerea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiaAerea.swift; sourceTree = "<group>"; };
 		F160579B204B24EA00C9010C /* CadastroGenerico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroGenerico.swift; sourceTree = "<group>"; };
 		F160579D204B24EB00C9010C /* Voo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voo.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				57300E15204B1794005BEA7A /* BuscarVooController.swift */,
 				57300E13204B1482005BEA7A /* VooController.swift */,
 				F16057A8204B2FD700C9010C /* VooCiaViewController.swift */,
+				F123EB582052154600A1951B /* VooAeroportoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			files = (
 				F16057A2204B24EB00C9010C /* Voo.swift in Sources */,
 				F16057A0204B24EB00C9010C /* CadastroGenerico.swift in Sources */,
+				F123EB592052154600A1951B /* VooAeroportoViewController.swift in Sources */,
 				F160579F204B24EB00C9010C /* CiaAerea.swift in Sources */,
 				57300E16204B1794005BEA7A /* BuscarVooController.swift in Sources */,
 				F16057AB204B339C00C9010C /* CelulaTableViewCell.swift in Sources */,

@@ -54,7 +54,7 @@ class BuscarVooController: UIViewController, UITableViewDelegate, UITableViewDat
         print("passou!!!!!")
         let celula:CelulaTableViewCell = vrTableView.dequeueReusableCell(withIdentifier: "celulaCustomizada") as! CelulaTableViewCell
         
-        LabelVooEncontrado.text = "Voo N. : " + String(voosEncontrados[indexPath.row].codigo)
+        LabelVooEncontrado.text = "Voos encontrados:"
         
         celula.vrLabelCell.text = voosEncontrados[indexPath.row].nome
         
